@@ -157,5 +157,5 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
 
 languageCode = ["es","en"]
 languageName = ["Español","English"]
-defaultContentLanguage = "es"
+
 enableEmoji = true
