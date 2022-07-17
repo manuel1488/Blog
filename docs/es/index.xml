@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Blog de Manuel</title>
+        <link>https://manuel1488.github.io/blog/es/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>manuel.alfaro1488@gmail.com (Manuel Alfaro)</managingEditor>
+            <webMaster>manuel.alfaro1488@gmail.com (Manuel Alfaro)</webMaster><lastBuildDate>Thu, 14 Jul 2022 00:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="https://manuel1488.github.io/blog/es/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>

@@ -1,0 +1,161 @@
+baseURL = "https://manuel1488.github.io/blog/"
+publishDir = "docs"
+
+# Change the default theme to be use when building the site with Hugo
+theme = "LoveIt"
+
+# website title
+title = "Blog de Manuel"
+subtitle = "Blog personal como desarrollador"
+description = "Aprendiendo nuevas cosas de programación siendo desarrollador de Software"
+
+
+# Author config
+[author]
+  name = "Manuel Alfaro"
+  email = "manuel.alfaro1488@gmail.com"
+  link = ""
+
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+  [[menu.main]]
+    weight = 4
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "Abaout"
+    url = "/about/"
+    title = ""
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+
+[params]
+  [params.social]
+    GitHub = "manuel1488"
+    Linkedin = "manuelalfaro88"
+    Email = "manuel_alfaro1488@yahoo.com.mx"
+  [params.header]
+    [params.header.title]
+      name = "Manuel's Blog"    
+  [params.home]
+    [params.home.profile]
+      subtitle = "Learn - Code - Deploy!!"
+      avatarURL = "/images/avatar.png"
+
+[languages]
+  [languages.es]
+    weight = 1
+    title = "Blog de Manuel"
+    languageCode = "es"
+    languageName = "Español"    
+    [[languages.es.menu.main]]
+      weight = 1
+      identifier = "posts"
+      # you can add extra information before the name (HTML format is supported), such as icons
+      pre = ""
+      # you can add extra information after the name (HTML format is supported), such as icons
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      # title will be shown when you hover on this menu link
+      title = ""
+    [[languages.es.menu.main]]
+       weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+    [[languages.es.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categorias"
+      url = "/categories/"
+      title = ""
+    [[languages.es.menu.main]]
+      weight = 4
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "Acerca de"
+      url = "/about/"
+      title = ""
+  [languages.en]
+    weight = 2
+    title = "Manuel's Blog"
+    languageCode = "en"
+    languageName = "English"    
+    [[languages.en.menu.main]]
+      weight = 1
+      identifier = "posts"      
+      pre = ""  
+      post = ""
+      name = "Posts"
+      url = "/posts/"      
+      title = ""
+    [[languages.en.menu.main]]
+       weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 4
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "About"
+      url = "/about/"
+      title = ""
+    
+
+
+languageCode = ["es","en"]
+languageName = ["Español","English"]
+defaultContentLanguage = "es"
+enableEmoji = true

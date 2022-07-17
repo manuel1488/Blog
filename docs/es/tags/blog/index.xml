@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>blog - Etiqueta - Blog de Manuel</title>
+        <link>https://manuel1488.github.io/blog/es/tags/blog/</link>
+        <description>blog - Etiqueta - Blog de Manuel</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>manuel.alfaro1488@gmail.com (Manuel Alfaro)</managingEditor>
+            <webMaster>manuel.alfaro1488@gmail.com (Manuel Alfaro)</webMaster><lastBuildDate>Thu, 14 Jul 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://manuel1488.github.io/blog/es/tags/blog/" rel="self" type="application/rss+xml" /><item>
+    <title>Acerca de mi</title>
+    <link>https://manuel1488.github.io/blog/es/about/</link>
+    <pubDate>Thu, 14 Jul 2022 00:00:00 &#43;0000</pubDate>
+    <author>Manuel Alfaro</author>
+    <guid>https://manuel1488.github.io/blog/es/about/</guid>
+    <description><![CDATA[He decido crear un blog para registrar el aprendizaje que voy obteniendo y a la vez compartirlo ya que nunca sabemos a quien le puede ayudar con nuestra aportación. Tambien me sirve como recordario de todo aquello que he utilizado y aprendido
+Me dedico al desarllo de Software por lo que mis intereses para]]></description>
+</item>
+</channel>
+</rss>

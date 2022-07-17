@@ -1,0 +1,40 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Etiqueta - Blog de Manuel</title>
+        <link>https://manuel1488.github.io/blog/es/tags/</link>
+        <description>Tags - Etiqueta - Blog de Manuel</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>manuel.alfaro1488@gmail.com (Manuel Alfaro)</managingEditor>
+            <webMaster>manuel.alfaro1488@gmail.com (Manuel Alfaro)</webMaster><lastBuildDate>Thu, 14 Jul 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://manuel1488.github.io/blog/es/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>acerca de mi</title>
+    <link>https://manuel1488.github.io/blog/es/tags/acerca-de-mi/</link>
+    <pubDate>Thu, 14 Jul 2022 00:00:00 &#43;0000</pubDate>
+    <author>Manuel Alfaro</author>
+    <guid>https://manuel1488.github.io/blog/es/tags/acerca-de-mi/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>blog</title>
+    <link>https://manuel1488.github.io/blog/es/tags/blog/</link>
+    <pubDate>Thu, 14 Jul 2022 00:00:00 &#43;0000</pubDate>
+    <author>Manuel Alfaro</author>
+    <guid>https://manuel1488.github.io/blog/es/tags/blog/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>programación</title>
+    <link>https://manuel1488.github.io/blog/es/tags/programaci%C3%B3n/</link>
+    <pubDate>Thu, 14 Jul 2022 00:00:00 &#43;0000</pubDate>
+    <author>Manuel Alfaro</author>
+    <guid>https://manuel1488.github.io/blog/es/tags/programaci%C3%B3n/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>software</title>
+    <link>https://manuel1488.github.io/blog/es/tags/software/</link>
+    <pubDate>Thu, 14 Jul 2022 00:00:00 &#43;0000</pubDate>
+    <author>Manuel Alfaro</author>
+    <guid>https://manuel1488.github.io/blog/es/tags/software/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
