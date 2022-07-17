@@ -115,7 +115,7 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
       pre = ""
       post = ""
       name = "Acerca de"
-      url = "/about/"
+      url = "about/"
       title = ""
   [languages.en]
     weight = 2
