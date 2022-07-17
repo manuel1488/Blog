@@ -1,4 +1,6 @@
 baseURL = "https://manuel1488.github.io/blog/"
+relativeURLS  = true
+#canonifyurls = true
 publishDir = "docs"
 
 # Change the default theme to be use when building the site with Hugo
@@ -15,7 +17,6 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
   name = "Manuel Alfaro"
   email = "manuel.alfaro1488@gmail.com"
   link = ""
-
 
 # Markup related configuration in Hugo
 [markup]
