@@ -13,7 +13,15 @@
                     /></url><url>
             <loc>https://manuel1488.github.io/blog/es/tags/c#/</loc><lastmod>2022-07-23T21:27:24-05:00</lastmod></url><url>
             <loc>https://manuel1488.github.io/blog/es/tags/fizzbuzz/</loc><lastmod>2022-07-23T21:27:24-05:00</lastmod></url><url>
-            <loc>https://manuel1488.github.io/blog/es/posts/fizzbuzz/</loc><lastmod>2022-07-23T21:27:24-05:00</lastmod></url><url>
+            <loc>https://manuel1488.github.io/blog/es/posts/fizzbuzz/</loc><lastmod>2022-07-23T21:27:24-05:00</lastmod><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://manuel1488.github.io/blog/posts/fizzbuzz/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="es"
+                    href="https://manuel1488.github.io/blog/es/posts/fizzbuzz/"
+                    /></url><url>
             <loc>https://manuel1488.github.io/blog/es/tags/hackerrank/</loc><lastmod>2022-07-23T21:27:24-05:00</lastmod></url><url>
             <loc>https://manuel1488.github.io/blog/es/tags/javascript/</loc><lastmod>2022-07-23T21:27:24-05:00</lastmod></url><url>
             <loc>https://manuel1488.github.io/blog/es/posts/</loc><lastmod>2022-07-23T21:27:24-05:00</lastmod><xhtml:link
