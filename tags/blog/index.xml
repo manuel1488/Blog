@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>blog - Tag - Manuel&#39;s Blog</title>
+        <link>https://manuel1488.github.io/blog/tags/blog/</link>
+        <description>blog - Tag - Manuel&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>manuel.alfaro1488@gmail.com (Manuel Alfaro)</managingEditor>
+            <webMaster>manuel.alfaro1488@gmail.com (Manuel Alfaro)</webMaster><lastBuildDate>Thu, 14 Jul 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://manuel1488.github.io/blog/tags/blog/" rel="self" type="application/rss+xml" /><item>
+    <title>About Me</title>
+    <link>https://manuel1488.github.io/blog/about/</link>
+    <pubDate>Thu, 14 Jul 2022 00:00:00 &#43;0000</pubDate>
+    <author>Manuel Alfaro</author>
+    <guid>https://manuel1488.github.io/blog/about/</guid>
+    <description><![CDATA[Hi ✋ I&rsquo;m Manuel Alfaro
+❓ I&rsquo;am Software Developer so I decided writte a blog to record my learning and share it with you, ademas me sirve como recordario. it also is a reminder about what I&rsquo;m learning
+📖 I taked a course at LaunchX from @innovaccionvirtual powered by Microsoft and one of my mentors was @Carlogilmar who motivated us to start a blog using Hugo and GitHub Pages technology.]]></description>
+</item>
+</channel>
+</rss>
