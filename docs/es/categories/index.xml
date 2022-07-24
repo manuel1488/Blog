@@ -1,8 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Categories - Categoría - Blog de Manuel</title>
-        <link>https://manuel1488.github.io/blog/es/categories/</link>
-        <description>Categories - Categoría - Blog de Manuel</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>manuel.alfaro1488@gmail.com (Manuel Alfaro)</managingEditor>
-            <webMaster>manuel.alfaro1488@gmail.com (Manuel Alfaro)</webMaster><atom:link href="https://manuel1488.github.io/blog/es/categories/" rel="self" type="application/rss+xml" /></channel>
-</rss>
