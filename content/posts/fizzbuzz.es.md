@@ -3,7 +3,6 @@ title: "Fizzbuzz"
 date: 2022-07-23T21:27:24-05:00
 draft: false
 author: "Manuel Alfaro"
-slug: "fizzbuzz"
 description: "Resolviendo retos de programación"
 tags: ["fizzbuzz","programación","C#","javascript","hackerrank"]
 ---
