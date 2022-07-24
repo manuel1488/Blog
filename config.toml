@@ -3,6 +3,7 @@ baseURL = "https://manuel1488.github.io/blog/"
 #canonifyurls = true
 publishDir = "docs"
 
+
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
@@ -24,6 +25,10 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
   [markup.highlight]
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 
 [params]
   [params.social]
@@ -56,7 +61,7 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       name = "Posts"
-      url = "/posts/"
+      url = "posts/"
       # title will be shown when you hover on this menu link
       title = ""
     [[languages.es.menu.main]]
@@ -65,7 +70,7 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
       pre = ""
       post = ""
       name = "Tags"
-      url = "/tags/"
+      url = "tags/"
       title = ""
     [[languages.es.menu.main]]
       weight = 3
@@ -73,7 +78,7 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
       pre = ""
       post = ""
       name = "Categorias"
-      url = "/categories/"
+      url = "categories/"
       title = ""
     [[languages.es.menu.main]]
       weight = 4
@@ -98,7 +103,7 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
       pre = ""  
       post = ""
       name = "Posts"
-      url = "/posts/"      
+      url = "posts/"      
       title = ""
     [[languages.en.menu.main]]
        weight = 2
@@ -106,7 +111,7 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
       pre = ""
       post = ""
       name = "Tags"
-      url = "/tags/"
+      url = "tags/"
       title = ""
     [[languages.en.menu.main]]
       weight = 3
@@ -114,7 +119,7 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
       pre = ""
       post = ""
       name = "Categories"
-      url = "/categories/"
+      url = "categories/"
       title = ""
     [[languages.en.menu.main]]
       weight = 4
@@ -122,7 +127,7 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
       pre = ""
       post = ""
       name = "About"
-      url = "/about/"
+      url = "about/"
       title = ""
     
 
