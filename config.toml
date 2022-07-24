@@ -3,6 +3,7 @@ baseURL = "https://manuel1488.github.io/blog/"
 #canonifyurls = true
 publishDir = "public"
 
+
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
@@ -40,7 +41,12 @@ description = "Aprendiendo nuevas cosas de programación siendo desarrollador de
   [params.home]
     [params.home.profile]
       subtitle = "Learn - Code - Deploy!!"
-      
+  [params.page]
+    [params.page.comment]
+      enable = true
+      [params.page.comment.disqus]
+        enable = true
+        shortname  = "manuel1488-github"
 
 [languages]
   [languages.es]
