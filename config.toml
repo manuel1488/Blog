@@ -3,7 +3,6 @@ baseURL = "https://manuel1488.github.io/blog/"
 #canonifyurls = true
 publishDir = "docs"
 
-
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
