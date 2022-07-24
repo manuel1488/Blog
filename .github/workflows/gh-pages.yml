@@ -21,7 +21,7 @@ jobs:
         echo ":: Eliminando versión previa ::"
         rm -rf docs
     - name: Build drafts
-      run: hugo -D
+      run: hugo
     - name: Commit Update
       run: |
         echo ":: Renombrando nueva version ::"
