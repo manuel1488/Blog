@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Fizzbuzz - Manuel&#39;s Blog</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="Fizzbuzz" />
-<meta property="og:description" content="" />
+        <title>Fizzbuzz - Manuel&#39;s Blog</title><meta name="Description" content="Resolviendo retos de programación"><meta property="og:title" content="Fizzbuzz" />
+<meta property="og:description" content="Resolviendo retos de programación" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://manuel1488.github.io/blog/posts/fizzbuzz/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-07-23T21:51:28-05:00" />
@@ -13,7 +13,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Fizzbuzz"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="Resolviendo retos de programación"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -28,13 +28,13 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/manuel1488.github.io\/blog\/posts\/fizzbuzz\/"
-        },"genre": "posts","wordcount":  0 ,
+        },"genre": "posts","keywords": "fizzbuzz, programación, C#, javascript, hackerrank","wordcount":  219 ,
         "url": "https:\/\/manuel1488.github.io\/blog\/posts\/fizzbuzz\/","datePublished": "2022-07-23T21:51:28-05:00","dateModified": "2022-07-23T21:51:28-05:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
                 "name": "Manuel Alfaro"
-            },"description": ""
+            },"description": "Resolviendo retos de programación"
     }
     </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -76,15 +76,66 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Fizzbuzz</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/blog/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Manuel Alfaro</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-23">2022-07-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;0 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;0 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-23">2022-07-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;219 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"></div><div class="post-footer" id="post-footer">
+            </div><div class="content" id="content"><h1 id="fizzbuzz">FizzBuzz</h1>
+<p>The FizzBuzz problem is a classic test given in coding interviews. The task is simple: print integers 1 to N. For example we can find one example in <a href="https://www.hackerrank.com/challenges/fizzbuzz/" target="_blank" rel="noopener noreffer ">HackerRank</a> with the next description:</p>
+<blockquote>
+<p>Write a short program that prints each number from 1 to 100 on a new line. <br />
+For each multiple of 3, print &ldquo;Fizz&rdquo; instead of the number. <br />
+For each multiple of 5, print &ldquo;Buzz&rdquo; instead of the number. <br />
+For numbers which are multiples of both 3 and 5, print &ldquo;FizzBuzz&rdquo; instead of the number.</p>
+</blockquote>
+<p>A way for solve this problem in C# language</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c#" data-lang="c#"><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="nn">System.IO</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">static</span> <span class="k">void</span> <span class="n">Main</span><span class="p">(</span><span class="n">String</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="cm">/* Enter your code here. Read input from STDIN. Print output to STDOUT. Your              class should be named Solution */</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span><span class="p">(</span><span class="kt">byte</span> <span class="n">i</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;=</span> <span class="m">100</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="kt">string</span> <span class="n">response</span> <span class="p">=</span> <span class="kt">string</span><span class="p">.</span><span class="n">Empty</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="p">%</span> <span class="m">3</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="n">response</span> <span class="p">+=</span> <span class="s">&#34;Fizz&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="n">i</span> <span class="p">%</span> <span class="m">5</span> <span class="p">==</span> <span class="m">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                <span class="n">response</span> <span class="p">+=</span> <span class="s">&#34;Buzz&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                
+</span></span><span class="line"><span class="cl">            <span class="k">if</span><span class="p">(</span><span class="kt">string</span><span class="p">.</span><span class="n">IsNullOrEmpty</span><span class="p">(</span><span class="n">response</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">                <span class="n">response</span> <span class="p">=</span> <span class="n">i</span><span class="p">.</span><span class="n">ToString</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">                            
+</span></span><span class="line"><span class="cl">            <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">response</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>And for JavaScript:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="nx">process</span><span class="p">.</span><span class="nx">stdin</span><span class="p">.</span><span class="nx">resume</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl"><span class="nx">process</span><span class="p">.</span><span class="nx">stdin</span><span class="p">.</span><span class="nx">setEncoding</span><span class="p">(</span><span class="s2">&#34;ascii&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="nx">process</span><span class="p">.</span><span class="nx">stdin</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s2">&#34;data&#34;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">input</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;=</span><span class="mi">100</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kd">let</span> <span class="nx">response</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">i</span><span class="o">%</span><span class="mi">3</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">response</span> <span class="o">+=</span> <span class="s2">&#34;Fizz&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">i</span><span class="o">%</span><span class="mi">5</span> <span class="o">===</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">response</span> <span class="o">+=</span> <span class="s2">&#34;Buzz&#34;</span><span class="p">;}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="nx">response</span> <span class="o">===</span> <span class="s2">&#34;&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">            <span class="nx">response</span> <span class="o">=</span> <span class="nx">i</span><span class="p">;</span>   
+</span></span><span class="line"><span class="cl">            
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></div><p>This solution is one of many ways</p>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -93,13 +144,13 @@
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://manuel1488.github.io/blog/posts/fizzbuzz/" data-title="Fizzbuzz"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://manuel1488.github.io/blog/posts/fizzbuzz/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://manuel1488.github.io/blog/posts/fizzbuzz/" data-title="Fizzbuzz"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://manuel1488.github.io/blog/posts/fizzbuzz/" data-title="Fizzbuzz"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://manuel1488.github.io/blog/posts/fizzbuzz/" data-title="Fizzbuzz"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://manuel1488.github.io/blog/posts/fizzbuzz/" data-title="Fizzbuzz" data-hashtags="fizzbuzz,programación,C#,javascript,hackerrank"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://manuel1488.github.io/blog/posts/fizzbuzz/" data-hashtag="fizzbuzz"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://manuel1488.github.io/blog/posts/fizzbuzz/" data-title="Fizzbuzz"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://manuel1488.github.io/blog/posts/fizzbuzz/" data-title="Fizzbuzz"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://manuel1488.github.io/blog/posts/fizzbuzz/" data-title="Fizzbuzz"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/blog/tags/fizzbuzz/">fizzbuzz</a>,&nbsp;<a href="/blog/tags/programaci%C3%B3n/">programación</a>,&nbsp;<a href=""></a>,&nbsp;<a href="/blog/tags/javascript/">javascript</a>,&nbsp;<a href="/blog/tags/hackerrank/">hackerrank</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/blog/">Home</a></span>
         </section>
